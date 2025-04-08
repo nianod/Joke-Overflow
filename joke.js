@@ -16,6 +16,10 @@ const joke = () => {
         jokeDisplay.textContent = `${data.joke}`
 
     })
+
+
+
+    
     .then((resolve, reject) => {
         console.log(resolve);
         let data = resolve.json();
